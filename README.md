@@ -1,6 +1,6 @@
-# MIT 1.104 Lab 5 Part B: Basic Computer Vision & Camera Calibration
+# MIT 1.104 Basic Computer Lab
 
-This repository contains the necessary code and instructions for the Camera Calibration Lab. This lab will help you understand the pinhole camera model and perform camera calibration using your smartphone.
+This repository contains the necessary code and instructions for the Basic CV Lab. This lab will help you understand the pinhole camera model, perform camera calibration using your smartphone, and try the object detection model.
 
 ## Requirements
 
@@ -29,6 +29,10 @@ Before starting the lab, make sure you have the following installed:
    ```
    pip install tqdm
    ```
+7. **ultralytics**: For YOLO object detection
+   ```
+   pip install ultralytics
+   ```
 
 You can install all requirements at once using:
 ```
@@ -52,13 +56,6 @@ camera_calibration_lab/
 ├── README.md                      # This file
 └── requirements.txt               # Python dependencies
 ```
-
-## Getting Started
-
-1. Create a folder named `calibration_images` in the project directory
-2. Take approximately 15 photos of the checkerboard pattern using your smartphone
-3. Transfer the images to your computer and place them in the `calibration_images` folder
-4. Follow the instructions in the lab handout for running the calibration script
 
 ## Troubleshooting
 
