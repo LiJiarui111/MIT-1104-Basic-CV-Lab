@@ -1,4 +1,4 @@
-# MIT 1.104 Basic Computer Lab
+# MIT 1.104 Basic Computer Vision Lab
 
 This repository contains the necessary code and instructions for the Basic CV Lab. This lab will help you understand the pinhole camera model, perform camera calibration using your smartphone, and try the object detection model.
 
