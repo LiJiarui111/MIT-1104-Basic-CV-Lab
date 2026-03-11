@@ -46,13 +46,17 @@ pip install -r requirements.txt
    - Make sure to print the pattern on a flat, rigid surface
    - Do not scale the pattern during printing
    - The checkerboard should have 9×6 internal corners (10×7 squares)
+3. **Fake fruits** For object detection
 
 ## Project Structure
 
 ```
 camera_calibration_lab/
+├── example_images/                # Example images for object detection
 ├── camera_calibration.py          # Main calibration script
 ├── visualize_calibration.py       # Visualization script
+└── run_yolo.py.                   # YOLO object detection script
+└── yolov8n.qt                     # YOLO pretrained object detection model
 ├── README.md                      # This file
 └── requirements.txt               # Python dependencies
 ```
